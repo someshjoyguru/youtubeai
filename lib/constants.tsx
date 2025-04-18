@@ -15,15 +15,9 @@ export type Prompt = {
 
 export const models: Model[] = [
   {
-    value: "default",
-    label: "GPT-3.5",
-    content: "gpt-3.5-turbo",
-    icon: <BarChartIcon className="h-4 w-4 opacity-70" />
-  },
-  {
-    value: "GPT-4",
-    label: "GPT-4",
-    content: "gpt-4-turbo",
+    value: "gemini-2.0-flash",
+    label: "Gemini-2.0-Flash",
+    content: "gemini-2.0-flash",
     icon: <BarChartIcon className="h-4 w-4 opacity-70" />
   }
 ]
