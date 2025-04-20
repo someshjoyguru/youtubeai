@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 import type { PlasmoMessaging } from "@plasmohq/messaging";
 
-const genAI = new GoogleGenerativeAI("AIzaSyDVCE2ZrOhnGrI-4QBWP2DCCvFYz5fLcrI"); 
+const genAI = new GoogleGenerativeAI(GEMINI_KEY); 
 const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
 async function generateContent(prompt: string, context: any) {
